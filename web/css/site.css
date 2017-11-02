@@ -1,0 +1,284 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+/*    background-color: transparent; */
+     background-color: #eee;
+    padding: 30px;
+    margin-bottom: 30px;
+    font-family: URW Chancery L,verdana,serif;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+.book{
+    font-size: ;
+}
+
+.bookjourney{
+    font-size: 20px;
+}
+
+li{
+    font-size: 15px;
+}
+
+.header{
+    text-align: center;
+    font-family: URW Chancery L,verdana,serif;
+}
+
+.center{
+    text-align: center;
+}
+
+.img{
+    width:100%;
+    height:200px;
+}
+
+.glyph-size{
+    height: 100%;
+    width : 100%;
+}
+
+.ticket-head{
+    margin-left: 35%;
+}
+
+.try{
+    margin-right: auto;
+    margin-left : -10px;
+}
+.megane{
+    width : 100%;
+    height : 500px;
+}
+img{
+    max-height: 500px;
+}
+
+.head{
+    margin-left:50%;
+    font-family: URW Chancery L,verdana,serif;
+    font-size: 40px;
+}
+
+/* contact form, cancel ticket, login*/
+.c-body{
+    /*background:#AEE4FF;*/
+}
+.form-style-6{
+    font: 95% Arial, Helvetica, sans-serif;
+/*    width: 600px;
+    max-width: 800px;
+*/    margin: 10px auto;
+    padding: 16px;
+    background: #F7F7F7;
+    border-top-right-radius: 25px;
+}
+.form-style-6 h1{
+    background: lightblue;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.p-font{
+    font-size: 16px; 
+}
+
+/* bbook seat */
+.form-style-10{
+    max-width:500px;
+    padding:30px;
+    margin:40px auto;
+    background: #FFF;
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+.form-style-10 .inner-wrap{
+    padding: 30px;
+    background: #F8F8F8;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+.form-style-10 h1{
+    background: #2A88AD;
+    padding: 20px 30px 15px 30px;
+    margin: -30px -30px 30px -30px;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+    font: normal 30px 'Bitter', serif;
+    -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    border: 1px solid #257C9E;
+}
+
+.form-style-10 input[type="text"] {
+    display: block;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border: 2px solid #fff;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+}
+
+.form-style-10 .section{
+    font: normal 20px 'Bitter', serif;
+    color: #2A88AD;
+    margin-bottom: 5px;
+}
+.form-style-10 .section span {
+    background: #2A88AD;
+    padding: 5px 10px 5px 10px;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 4px solid #fff;
+    font-size: 14px;
+    margin-left: -45px;
+    color: #fff;
+    margin-top: -3px;
+}
+
+.form-style-10 p{
+    font-size: 20px;
+}
+
+.form-style-10 span{
+    margin-left: 10%;
+}
+
+.form-style-10 label{
+    margin-left: 30px;
+}
+
+.form-style-10 .label1{
+    margin-left: 40px;
+}
+
+.container{
+    width: 100%;
+}
+
+/*to hide the google translate navbar*/
+.goog-te-banner-frame.skiptranslate {
+	display: none !important;
+}
+
+
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    right: 25%;
+}
+
+
